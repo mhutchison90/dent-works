@@ -1,0 +1,88 @@
+.App{
+}
+
+header{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(27, 34, 45);
+  padding: 10px;
+}
+contactus{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;
+}
+callus{
+  font-size: 24px;
+  border: solid silver 2px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 80%;
+  background-color: rgb(41, 52, 71);  
+}
+emailus{
+  font-size: 24px;
+  border: solid silver 2px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 80%;
+  background-color: rgb(41, 52, 71);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+  background-repeat: no-repeat;
+  background-image: url("assets/carShopSmall.jpeg") ;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.middle {
+  background: linear-gradient(to bottom, #141B28, rgb(0, 0, 0)),
+  url("assets/carBottom.png");
+  height: 30vh;
+}
+.bottomImg{
+  background-repeat: no-repeat;
+  background-image: url("assets/carBottomSmall.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  background-size: 100%;
+  display: grid;
+    grid-template-rows:    2fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+.bottom{
+  background-color: black;
+}
+footer{
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(27, 34, 45));
+  height:100px;
+  background-color: rgb(27, 34, 45);
+  color: rgba(102, 101, 101, 0.5);
+  text-align: center;
+  padding-top: 30px;
+}
+footer > a{
+  color: rgba(102, 101, 101, 0.5);  
+}
