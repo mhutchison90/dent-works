@@ -27,7 +27,7 @@ class App extends Component {
         <div className='bottom'>
           <div className='bottomImg'></div>
         </div>
-        <footer>Handmade by Michael J. Hutchison © 2017. 
+        <footer> <p>Handmade by Michael J. Hutchison © 2017. </p>
         <a href="http://MyNextDev.com" target="blank"> MyNextDev.com</a>
         </footer>
       </div>
